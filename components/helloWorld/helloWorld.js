@@ -7,7 +7,6 @@ export default () => {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Hello World!</Text>
-            {/*<Button title="Works for me!" onPress={playSound}/>*/}
         </View>
     );
 }
@@ -20,9 +19,6 @@ const styles = StyleSheet.create({
         backgroundColor: "#ffffff",
     },
     text: {
-        fontSize: 30,
-        fontWeight: "normal",
-        marginBottom: 30,
     }
 });
 
@@ -30,3 +26,5 @@ const styles = StyleSheet.create({
 //     const {sound} = await Audio.Sound.createAsync(require('../../assets/works-for-me.mp3'));
 //     await sound.playAsync();
 // };
+
+// <Button title="Works for me!" onPress={playSound}/>
