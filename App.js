@@ -6,9 +6,9 @@ import News from "./components/news/news";
 import HelloWorld from "./components/helloWorld/helloWorld";
 
 export default function App() {
-  return <HelloWorld/>
-  // return <RockPaperScissors />;
+  return <HelloWorld/>;
   // return <Lightbulb />;
    // return <StopWatch />;
+  // return <RockPaperScissors />;
   // return <News />;
 }

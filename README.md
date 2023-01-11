@@ -1,4 +1,4 @@
-# Momentum Devconn Examples
+# React Native - Expo Examples
 
 This is a small collection of apps that can be commented to show different small apps for React Native (with Expo)
 
@@ -11,5 +11,5 @@ This is a small collection of apps that can be commented to show different small
 # Running locally
 
 - run `yarn install`
-- run `expo start`
+- run `npx expo start`
 

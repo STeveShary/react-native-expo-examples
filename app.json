@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "momentum-devconn-examples",
+    "name": "react-native-expo-examples",
     "slug": "snack-e3a55f71-d7a4-4f94-9889-6cbb788f0291",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0F0E33"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
