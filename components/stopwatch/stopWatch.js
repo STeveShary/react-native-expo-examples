@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import {StyleSheet, SafeAreaView, Text, View, Platform} from "react-native";
-import {StatusBar} from "expo-status-bar";
 import Constants from "expo-constants";
 import Result from "./result";
 import Control from "./control";
@@ -39,8 +38,6 @@ export default function StopWatch() {
 
     return (
         <SafeAreaView style={styles.container}>
-            <StatusBar style="light"/>
-
             <View style={styles.display}>
                 <Text style={styles.displayText}>{displayTime(time)}</Text>
             </View>
