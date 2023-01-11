@@ -47,10 +47,6 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         marginBottom: 10,
     },
-    articleDescription: {
-        fontSize: 16,
-        marginBottom: 10,
-    },
     articlePublishedAt: {
         fontSize: 14,
     },
