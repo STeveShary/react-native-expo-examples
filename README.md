@@ -4,9 +4,8 @@ This is a small collection of apps that can be commented to show different small
 
 ## Requirements to Run Locally
 
-- node.js
-- yarn
-- expo-cli
+- node.js -> https://nodejs.org/en/download/package-manager
+- yarn -> https://yarnpkg.com/getting-started/install
 
 # Running locally
 

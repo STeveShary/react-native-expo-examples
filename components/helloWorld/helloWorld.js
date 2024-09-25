@@ -7,6 +7,7 @@ export default () => {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Hello World!</Text>
+            {/*<Button title="Works for me!" onPress={playSound}/>*/}
         </View>
     );
 }
@@ -22,9 +23,7 @@ const styles = StyleSheet.create({
     }
 });
 
-// const playSound = async () => {
-//     const {sound} = await Audio.Sound.createAsync(require('../../assets/works-for-me.mp3'));
-//     await sound.playAsync();
-// };
-
-// <Button title="Works for me!" onPress={playSound}/>
+const playSound = async () => {
+    const {sound} = await Audio.Sound.createAsync(require('../../assets/works-for-me.mp3'));
+    await sound.playAsync();
+};
