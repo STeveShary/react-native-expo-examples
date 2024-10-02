@@ -7,8 +7,8 @@ import HelloWorld from "./components/helloWorld/helloWorld";
 
 export default function App() {
   // return <HelloWorld/>;
-  // return <Lightbulb />;
+  return <Lightbulb />;
    // return <StopWatch />;
   // return <RockPaperScissors />;
-  return <News />;
+  // return <News />;
 }
